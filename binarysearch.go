@@ -9,7 +9,7 @@ func BinarySearch(needle int, haystack []int) bool {
 
 	for lower < upper {
 
-		middle := (lower + (upper-lower)/2)
+		middle := (lower + (upper - lower)) / 2
 		value := haystack[middle]
 
 		if value == needle {
